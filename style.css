@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.nav {
+    background-color: #7B66FA;
+    height: 100vh;
+}
+
+.content {
+    background-image: url(./images/3236267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.photo {
+    height: 100px;
+    border-radius: 100px;
+}
+
+.photo-cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.social {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-sizing {
+    height: 20px;
+}
+
+.icons-cover {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    margin-left: 30px;
+    margin-top: 500px;
+}
+
+.samson {
+    color: grey;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.developer {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.nav-icon {
+    height: 30px;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: grey;
+}
